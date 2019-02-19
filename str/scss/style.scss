@@ -1,0 +1,45 @@
+@import "_minix.scss";
+@import "common.scss";
+.web {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+    height: pxTorem(150px);
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    .box {
+        width: 100%;
+        height: pxTorem(136px);
+        margin-top: pxTorem(15px);
+        display: flex;
+        flex-wrap: wrap;
+        dl {
+            width: 20%;
+            height: pxTorem(60px);
+            text-align: center;
+        }
+    }
+}
+
+.bottom {
+    width: 100%;
+    height: pxTorem(50px);
+    display: flex;
+    dl {
+        width: 20%;
+        height: 100%;
+        text-align: center;
+    }
+}
